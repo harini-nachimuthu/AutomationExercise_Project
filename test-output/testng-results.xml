@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="25" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-24T10:39:45 IST" name="Suite" finished-at="2024-11-24T10:50:07 IST" duration-ms="621433">
+    <groups>
+    </groups>
+    <test started-at="2024-11-24T10:39:45 IST" name="Case1" finished-at="2024-11-24T10:40:30 IST" duration-ms="44696">
+      <class name="Tests.TestCase1">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase1@3f270e0a]" started-at="2024-11-24T10:39:45 IST" name="beforetest" finished-at="2024-11-24T10:39:51 IST" duration-ms="5407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test1()[pri:1, instance:Tests.TestCase1@3f270e0a]" started-at="2024-11-24T10:39:51 IST" name="Test1" description="Register User" finished-at="2024-11-24T10:40:07 IST" duration-ms="16086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase1@3f270e0a]" started-at="2024-11-24T10:40:07 IST" name="aftertest" finished-at="2024-11-24T10:40:07 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase1 -->
+      <class name="Tests.TestCase2">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase2@6127a7e]" started-at="2024-11-24T10:40:07 IST" name="beforetest" finished-at="2024-11-24T10:40:11 IST" duration-ms="4166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test2()[pri:2, instance:Tests.TestCase2@6127a7e]" started-at="2024-11-24T10:40:11 IST" name="Test2" description="Login User with correct email and password" finished-at="2024-11-24T10:40:30 IST" duration-ms="18381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase2@6127a7e]" started-at="2024-11-24T10:40:30 IST" name="aftertest" finished-at="2024-11-24T10:40:30 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase2 -->
+    </test> <!-- Case1 -->
+    <test started-at="2024-11-24T10:40:30 IST" name="Case2" finished-at="2024-11-24T10:41:12 IST" duration-ms="41982">
+      <class name="Tests.TestCase3">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase3@628c4ac0]" started-at="2024-11-24T10:40:30 IST" name="beforetest" finished-at="2024-11-24T10:40:36 IST" duration-ms="5434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test3()[pri:3, instance:Tests.TestCase3@628c4ac0]" started-at="2024-11-24T10:40:36 IST" name="Test3" description="Login User with incorrect email and password" finished-at="2024-11-24T10:40:38 IST" duration-ms="2621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase3@628c4ac0]" started-at="2024-11-24T10:40:38 IST" name="aftertest" finished-at="2024-11-24T10:40:39 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase3 -->
+      <class name="Tests.TestCase4">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase4@7b84fcf8]" started-at="2024-11-24T10:40:39 IST" name="beforetest" finished-at="2024-11-24T10:40:49 IST" duration-ms="9879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test4()[pri:4, instance:Tests.TestCase4@7b84fcf8]" started-at="2024-11-24T10:40:49 IST" name="Test4" description="Logout User" finished-at="2024-11-24T10:41:12 IST" duration-ms="23572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase4@7b84fcf8]" started-at="2024-11-24T10:41:12 IST" name="aftertest" finished-at="2024-11-24T10:41:12 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase4 -->
+    </test> <!-- Case2 -->
+    <test started-at="2024-11-24T10:41:12 IST" name="Case3" finished-at="2024-11-24T10:41:58 IST" duration-ms="46031">
+      <class name="Tests.TestCase5">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase5@44b3606b]" started-at="2024-11-24T10:41:12 IST" name="beforetest" finished-at="2024-11-24T10:41:17 IST" duration-ms="4593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test5()[pri:5, instance:Tests.TestCase5@44b3606b]" started-at="2024-11-24T10:41:17 IST" name="Test5" description="Register User with existing email" finished-at="2024-11-24T10:41:47 IST" duration-ms="30521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase5@44b3606b]" started-at="2024-11-24T10:41:47 IST" name="aftertest" finished-at="2024-11-24T10:41:48 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase5 -->
+      <class name="Tests.TestCase6">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase6@1477089c]" started-at="2024-11-24T10:41:48 IST" name="beforetest" finished-at="2024-11-24T10:41:53 IST" duration-ms="4789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test6()[pri:6, instance:Tests.TestCase6@1477089c]" started-at="2024-11-24T10:41:53 IST" name="Test6" description="Contact Us Form" finished-at="2024-11-24T10:41:58 IST" duration-ms="5495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase6@1477089c]" started-at="2024-11-24T10:41:58 IST" name="aftertest" finished-at="2024-11-24T10:41:58 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase6 -->
+    </test> <!-- Case3 -->
+    <test started-at="2024-11-24T10:41:58 IST" name="Case4" finished-at="2024-11-24T10:42:28 IST" duration-ms="29875">
+      <class name="Tests.TestCase7">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase7@9ef8eb7]" started-at="2024-11-24T10:41:58 IST" name="beforetest" finished-at="2024-11-24T10:42:12 IST" duration-ms="13674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test7()[pri:7, instance:Tests.TestCase7@9ef8eb7]" started-at="2024-11-24T10:42:12 IST" name="Test7" description="Verify Test Cases Page" finished-at="2024-11-24T10:42:14 IST" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase7@9ef8eb7]" started-at="2024-11-24T10:42:14 IST" name="aftertest" finished-at="2024-11-24T10:42:14 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase7 -->
+      <class name="Tests.TestCase8">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase8@34cdeda2]" started-at="2024-11-24T10:42:14 IST" name="beforetest" finished-at="2024-11-24T10:42:19 IST" duration-ms="4685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test8()[pri:8, instance:Tests.TestCase8@34cdeda2]" started-at="2024-11-24T10:42:19 IST" name="Test8" description="Verify All Products and product detail page" finished-at="2024-11-24T10:42:28 IST" duration-ms="8922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase8@34cdeda2]" started-at="2024-11-24T10:42:28 IST" name="aftertest" finished-at="2024-11-24T10:42:28 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase8 -->
+    </test> <!-- Case4 -->
+    <test started-at="2024-11-24T10:42:28 IST" name="Case5" finished-at="2024-11-24T10:42:58 IST" duration-ms="29237">
+      <class name="Tests.TestCase10">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase10@74960bfa]" started-at="2024-11-24T10:42:49 IST" name="beforetest" finished-at="2024-11-24T10:42:54 IST" duration-ms="4729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test10()[pri:10, instance:Tests.TestCase10@74960bfa]" started-at="2024-11-24T10:42:54 IST" name="Test10" description="Verify Subscription in home page" finished-at="2024-11-24T10:42:57 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test10 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase10@74960bfa]" started-at="2024-11-24T10:42:57 IST" name="aftertest" finished-at="2024-11-24T10:42:58 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase10 -->
+      <class name="Tests.TestCase9">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase9@22ffa91a]" started-at="2024-11-24T10:42:28 IST" name="beforetest" finished-at="2024-11-24T10:42:39 IST" duration-ms="10817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test9()[pri:9, instance:Tests.TestCase9@22ffa91a]" started-at="2024-11-24T10:42:39 IST" name="Test9" description="Search Product" finished-at="2024-11-24T10:42:49 IST" duration-ms="9896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase9@22ffa91a]" started-at="2024-11-24T10:42:49 IST" name="aftertest" finished-at="2024-11-24T10:42:49 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase9 -->
+    </test> <!-- Case5 -->
+    <test started-at="2024-11-24T10:42:58 IST" name="Case6" finished-at="2024-11-24T10:43:21 IST" duration-ms="23687">
+      <class name="Tests.TestCase12">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase12@6d23017e]" started-at="2024-11-24T10:43:08 IST" name="beforetest" finished-at="2024-11-24T10:43:13 IST" duration-ms="5028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test12()[pri:12, instance:Tests.TestCase12@6d23017e]" started-at="2024-11-24T10:43:13 IST" name="Test12" description="Add Products in Cart" finished-at="2024-11-24T10:43:21 IST" duration-ms="8089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase12@6d23017e]" started-at="2024-11-24T10:43:21 IST" name="aftertest" finished-at="2024-11-24T10:43:21 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase12 -->
+      <class name="Tests.TestCase11">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase11@28e8dde3]" started-at="2024-11-24T10:42:58 IST" name="beforetest" finished-at="2024-11-24T10:43:03 IST" duration-ms="5150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test11()[pri:11, instance:Tests.TestCase11@28e8dde3]" started-at="2024-11-24T10:43:03 IST" name="Test11" description="Verify Subscription in Cart page" finished-at="2024-11-24T10:43:08 IST" duration-ms="4640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase11@28e8dde3]" started-at="2024-11-24T10:43:08 IST" name="aftertest" finished-at="2024-11-24T10:43:08 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase11 -->
+    </test> <!-- Case6 -->
+    <test started-at="2024-11-24T10:43:21 IST" name="Case7" finished-at="2024-11-24T10:44:08 IST" duration-ms="46653">
+      <class name="Tests.TestCase14">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase14@4a194c39]" started-at="2024-11-24T10:43:33 IST" name="beforetest" finished-at="2024-11-24T10:43:38 IST" duration-ms="4608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test14()[pri:14, instance:Tests.TestCase14@4a194c39]" started-at="2024-11-24T10:43:38 IST" name="Test14" description="Place Order: Register while Checkout" finished-at="2024-11-24T10:44:08 IST" duration-ms="30040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test14 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase14@4a194c39]" started-at="2024-11-24T10:44:08 IST" name="aftertest" finished-at="2024-11-24T10:44:08 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase14 -->
+      <class name="Tests.TestCase13">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase13@c5dc4a2]" started-at="2024-11-24T10:43:21 IST" name="beforetest" finished-at="2024-11-24T10:43:26 IST" duration-ms="4838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test13()[pri:13, instance:Tests.TestCase13@c5dc4a2]" started-at="2024-11-24T10:43:26 IST" name="Test13" description="Verify Product quantity in Cart" finished-at="2024-11-24T10:43:33 IST" duration-ms="6448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase13@c5dc4a2]" started-at="2024-11-24T10:43:33 IST" name="aftertest" finished-at="2024-11-24T10:43:33 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase13 -->
+    </test> <!-- Case7 -->
+    <test started-at="2024-11-24T10:44:08 IST" name="Case8" finished-at="2024-11-24T10:45:13 IST" duration-ms="64711">
+      <class name="Tests.TestCase16">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase16@5a9d6f02]" started-at="2024-11-24T10:44:38 IST" name="beforetest" finished-at="2024-11-24T10:44:43 IST" duration-ms="4604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test16()[pri:16, instance:Tests.TestCase16@5a9d6f02]" started-at="2024-11-24T10:44:43 IST" name="Test16" description=" Place Order: Login before Checkout" finished-at="2024-11-24T10:45:13 IST" duration-ms="29962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test16 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase16@5a9d6f02]" started-at="2024-11-24T10:45:13 IST" name="aftertest" finished-at="2024-11-24T10:45:13 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase16 -->
+      <class name="Tests.TestCase15">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase15@189aa67a]" started-at="2024-11-24T10:44:08 IST" name="beforetest" finished-at="2024-11-24T10:44:13 IST" duration-ms="4735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test15()[pri:15, instance:Tests.TestCase15@189aa67a]" started-at="2024-11-24T10:44:13 IST" name="Test15" description="Place Order: Register before Checkout" finished-at="2024-11-24T10:44:38 IST" duration-ms="24694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test15 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase15@189aa67a]" started-at="2024-11-24T10:44:38 IST" name="aftertest" finished-at="2024-11-24T10:44:38 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase15 -->
+    </test> <!-- Case8 -->
+    <test started-at="2024-11-24T10:45:13 IST" name="Case9" finished-at="2024-11-24T10:45:33 IST" duration-ms="20051">
+      <class name="Tests.TestCase18">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase18@542e560f]" started-at="2024-11-24T10:45:24 IST" name="beforetest" finished-at="2024-11-24T10:45:29 IST" duration-ms="5021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test18()[pri:18, instance:Tests.TestCase18@542e560f]" started-at="2024-11-24T10:45:29 IST" name="Test18" description=" View Category Products" finished-at="2024-11-24T10:45:33 IST" duration-ms="3741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test18 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase18@542e560f]" started-at="2024-11-24T10:45:33 IST" name="aftertest" finished-at="2024-11-24T10:45:33 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase18 -->
+      <class name="Tests.TestCase17">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase17@241e8ea6]" started-at="2024-11-24T10:45:13 IST" name="beforetest" finished-at="2024-11-24T10:45:18 IST" duration-ms="4979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test17()[pri:17, instance:Tests.TestCase17@241e8ea6]" started-at="2024-11-24T10:45:18 IST" name="Test17" description="Remove Products From Cart" finished-at="2024-11-24T10:45:24 IST" duration-ms="5753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test17 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase17@241e8ea6]" started-at="2024-11-24T10:45:24 IST" name="aftertest" finished-at="2024-11-24T10:45:24 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase17 -->
+    </test> <!-- Case9 -->
+    <test started-at="2024-11-24T10:45:33 IST" name="Case10" finished-at="2024-11-24T10:48:08 IST" duration-ms="154499">
+      <class name="Tests.TestCase19">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase19@53d102a2]" started-at="2024-11-24T10:45:33 IST" name="beforetest" finished-at="2024-11-24T10:45:39 IST" duration-ms="6018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test19()[pri:19, instance:Tests.TestCase19@53d102a2]" started-at="2024-11-24T10:45:39 IST" name="Test19" description="View &amp; Cart Brand Products" finished-at="2024-11-24T10:47:30 IST" duration-ms="111320" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Brand - Allen Solly Junior Products']' (tried for 55 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='Brand - Allen Solly Junior Products']' (tried for 55 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utility.utils.ifelsechecking(utils.java:91)
+at Pages.TestCase19_page.Test19(TestCase19_page.java:54)
+at Tests.TestCase19.Test19(TestCase19.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Brand - Allen Solly Junior Products']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95252fa4e3d9bfbf61aae84859ce31aa, findElement {value=//h2[normalize-space()='Brand - Allen Solly Junior Products'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54777/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95252fa4e3d9bfbf61aae84859ce31aa
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test19 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase19@53d102a2]" started-at="2024-11-24T10:47:31 IST" name="aftertest" finished-at="2024-11-24T10:47:31 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase19 -->
+      <class name="Tests.TestCase20">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase20@6c45ee6e]" started-at="2024-11-24T10:47:31 IST" name="beforetest" finished-at="2024-11-24T10:47:36 IST" duration-ms="4560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test20()[pri:20, instance:Tests.TestCase20@6c45ee6e]" started-at="2024-11-24T10:47:36 IST" name="Test20" description="Search Products and Verify Cart After Login" finished-at="2024-11-24T10:48:07 IST" duration-ms="31772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test20 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase20@6c45ee6e]" started-at="2024-11-24T10:48:07 IST" name="aftertest" finished-at="2024-11-24T10:48:08 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase20 -->
+    </test> <!-- Case10 -->
+    <test started-at="2024-11-24T10:48:08 IST" name="Case11" finished-at="2024-11-24T10:48:42 IST" duration-ms="33987">
+      <class name="Tests.TestCase22">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase22@67c2e933]" started-at="2024-11-24T10:48:18 IST" name="beforetest" finished-at="2024-11-24T10:48:23 IST" duration-ms="4965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test22()[pri:22, instance:Tests.TestCase22@67c2e933]" started-at="2024-11-24T10:48:23 IST" name="Test22" description=" Add to cart from Recommended items" finished-at="2024-11-24T10:48:41 IST" duration-ms="18100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test22 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase22@67c2e933]" started-at="2024-11-24T10:48:41 IST" name="aftertest" finished-at="2024-11-24T10:48:42 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase22 -->
+      <class name="Tests.TestCase21">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase21@fade1fc]" started-at="2024-11-24T10:48:08 IST" name="beforetest" finished-at="2024-11-24T10:48:13 IST" duration-ms="5255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test21()[pri:21, instance:Tests.TestCase21@fade1fc]" started-at="2024-11-24T10:48:13 IST" name="Test21" description="Add review on product" finished-at="2024-11-24T10:48:18 IST" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test21 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase21@fade1fc]" started-at="2024-11-24T10:48:18 IST" name="aftertest" finished-at="2024-11-24T10:48:18 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase21 -->
+    </test> <!-- Case11 -->
+    <test started-at="2024-11-24T10:48:42 IST" name="Case12" finished-at="2024-11-24T10:49:50 IST" duration-ms="68402">
+      <class name="Tests.TestCase24">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase24@2807bdeb]" started-at="2024-11-24T10:49:09 IST" name="beforetest" finished-at="2024-11-24T10:49:14 IST" duration-ms="5044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test24()[pri:24, instance:Tests.TestCase24@2807bdeb]" started-at="2024-11-24T10:49:14 IST" name="Test24" description=" Download Invoice after purchase order" finished-at="2024-11-24T10:49:50 IST" duration-ms="35416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test24 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase24@2807bdeb]" started-at="2024-11-24T10:49:50 IST" name="aftertest" finished-at="2024-11-24T10:49:50 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase24 -->
+      <class name="Tests.TestCase23">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase23@18920cc]" started-at="2024-11-24T10:48:42 IST" name="beforetest" finished-at="2024-11-24T10:48:47 IST" duration-ms="5624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test23()[pri:23, instance:Tests.TestCase23@18920cc]" started-at="2024-11-24T10:48:47 IST" name="Test23" description=" Verify address details in checkout page" finished-at="2024-11-24T10:49:09 IST" duration-ms="21553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test23 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase23@18920cc]" started-at="2024-11-24T10:49:09 IST" name="aftertest" finished-at="2024-11-24T10:49:09 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase23 -->
+    </test> <!-- Case12 -->
+    <test started-at="2024-11-24T10:49:50 IST" name="Case13" finished-at="2024-11-24T10:50:07 IST" duration-ms="16390">
+      <class name="Tests.TestCase26">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase26@3700ec9c]" started-at="2024-11-24T10:49:58 IST" name="beforetest" finished-at="2024-11-24T10:50:04 IST" duration-ms="5971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test26()[pri:26, instance:Tests.TestCase26@3700ec9c]" started-at="2024-11-24T10:50:04 IST" name="Test26" description="Verify Scroll Up without &#039;Arrow&#039; button and Scroll Down functionality" finished-at="2024-11-24T10:50:06 IST" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test26 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase26@3700ec9c]" started-at="2024-11-24T10:50:06 IST" name="aftertest" finished-at="2024-11-24T10:50:07 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase26 -->
+      <class name="Tests.TestCase25">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase25@51972dc7]" started-at="2024-11-24T10:49:50 IST" name="beforetest" finished-at="2024-11-24T10:49:55 IST" duration-ms="4671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="Test25()[pri:25, instance:Tests.TestCase25@51972dc7]" started-at="2024-11-24T10:49:55 IST" name="Test25" description="Verify Scroll Up using &#039;Arrow&#039; button and Scroll Down functionality" finished-at="2024-11-24T10:49:58 IST" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test25 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Tests.TestCase25@51972dc7]" started-at="2024-11-24T10:49:58 IST" name="aftertest" finished-at="2024-11-24T10:49:58 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Tests.TestCase25 -->
+    </test> <!-- Case13 -->
+  </suite> <!-- Suite -->
+</testng-results>
