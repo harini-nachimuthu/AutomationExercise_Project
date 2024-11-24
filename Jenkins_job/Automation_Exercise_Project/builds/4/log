@@ -1,0 +1,495 @@
+Started by user [8mha:////4Mlq0z94An+1LiOdL2vjg+dpVV6DkYz8bMyNsznyoRoaAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/dLi1CL9jESg9sy8xOSMzNzSkoxSADe/qiHLAAAA[0mHariniNachimuthu
+Running as SYSTEM
+Building in workspace C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project
+The recommended git tool is: NONE
+using credential 1dd15a64-74cd-4ec1-9366-29082564b317
+ > git.exe rev-parse --resolve-git-dir C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/harini-nachimuthu/AutomationExercise_Project # timeout=10
+Fetching upstream changes from https://github.com/harini-nachimuthu/AutomationExercise_Project
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.45.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/harini-nachimuthu/AutomationExercise_Project +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 6b2d2a2a533a551e2a306c4aac337fb4f4befe92 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 6b2d2a2a533a551e2a306c4aac337fb4f4befe92 # timeout=10
+Commit message: "Create README.md"
+First time build. Skipping changelog.
+[Automation_Exercise_Project] $ cmd.exe /C "C:\Users\harin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\bin\mvn.cmd clean install test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< Automation_excercise:Automation_excercise >--------------
+[INFO] Building Automation_excercise 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Automation_excercise ---
+[INFO] Deleting C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Automation_excercise ---
+[INFO] skip non existing resourceDirectory C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ Automation_excercise ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Automation_excercise ---
+[INFO] skip non existing resourceDirectory C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ Automation_excercise ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 56 source files to C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\target\test-classes
+[INFO] /C:/Users/harin/.jenkins/workspace/Automation_Exercise_Project/src/test/java/Pages/TestCase22_page.java: C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\src\test\java\Pages\TestCase22_page.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/harin/.jenkins/workspace/Automation_Exercise_Project/src/test/java/Pages/TestCase22_page.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ Automation_excercise ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Nov 24, 2024 1:12:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:12:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!User onboarding tools
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 1 Completed.........................
+Nov 24, 2024 1:12:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:12:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!Access control systems
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Text is present - Login to your account
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 2 Completed.........................
+Nov 24, 2024 1:13:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:13:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Text is present - Login to your account
+Text is present - Your email or password is incorrect!
+.........................Testcase 3 Completed.........................
+Nov 24, 2024 1:13:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:13:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!Identity management solutions
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Yes it landed in correct page.. - Automation Exercise - Signup / Login
+Text is present - Login to your account
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 4 Completed.........................
+Nov 24, 2024 1:14:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:14:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!
+Text is present - Email Address already exist!
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 5 Completed.........................
+Nov 24, 2024 1:14:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:14:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - GET IN TOUCH
+Text is present - Success! Your details have been submitted successfully.
+Yes it landed in correct page.. - Automation Exercise
+.........................Testcase 6 Completed.........................
+Nov 24, 2024 1:14:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:14:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Yes it landed in correct page.. - Automation Practice Website for UI Testing - Test Cases
+.........................Testcase 7 Completed.........................
+Nov 24, 2024 1:14:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:14:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - ALL PRODUCTSINDIE MICKEY DRESSES
+Total products availaible is :: 34
+Blue Top
+Men  Tshirt
+Sleeveless  Dress
+Stylish Dress
+Winter Top
+Summer White Top
+Madame Top For Women
+Fancy Green Top
+Sleeves Printed Top - White
+Half Sleeves Top Schiffli Detailing - Pink
+Frozen Tops For Kids
+Full Sleeves Top Cherry - Pink
+Printed Off Shoulder Top - White
+Sleeves Top and Short - Blue & Pink
+Little Girls Mr. Panda Shirt
+Sleeveless Unicorn Patch Gown - Pink
+Cotton Mull Embroidered Dress
+Blue Cotton Indie Mickey Dress
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Colour Blocked Shirt – Sky Blue
+Pure Cotton V-Neck T-Shirt
+Green Side Placket Detail T-Shirt
+Premium Polo T-Shirts
+Pure Cotton Neon Green Tshirt
+Soft Stretch Jeans
+Regular Fit Straight Jeans
+Grunt Blue Slim Fit Jeans
+Rose Pink Embroidered Maxi Dress
+Cotton Silk Hand Block Print Saree
+Rust Red Linen Saree
+Beautiful Peacock Blue Cotton Linen Saree
+Lace Top For Women
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Text is present - Blue Top
+Text is present - Category: Women > Tops
+Text is present - Rs. 500
+Text is present - Availability: In Stock
+Text is present - Condition: New
+Text is present - Brand: Polo
+All the product details are available ....
+.........................Testcase 8 Completed.........................
+Nov 24, 2024 1:15:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:15:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - ALL PRODUCTSParty wear
+Text is present - SEARCHED PRODUCTSFlare dresses
+Totals products with the name - Winter Top and products available are : 1
+.........................Testcase 9 Completed.........................
+Nov 24, 2024 1:15:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:15:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - SUBSCRIPTION
+Text is present - You have been successfully subscribed!
+.........................Testcase 10 Completed.........................
+Nov 24, 2024 1:15:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:15:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - SUBSCRIPTION
+Text is present - You have been successfully subscribed!
+.........................Testcase 11 Completed.........................
+Nov 24, 2024 1:15:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:15:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - Price
+Text is present - Quantity
+Text is present - Total
+==================
+Text is present - Rs. 500
+Text is present - 1
+Text is present - Rs. 500
+==================
+Text is present - Rs. 400
+Text is present - 1
+Text is present - Rs. 400
+.........................Testcase 12 Completed.........................
+Nov 24, 2024 1:15:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:15:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - Fancy Green Top
+Category: Women > Tops
+Rs. 700
+Quantity: Add to cart
+Availability: In Stock
+Condition: New
+Brand:  Polo
+Yes given product is added to cart...
+.........................Testcase 13 Completed.........................
+Nov 24, 2024 1:16:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:16:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+C:\Users\harin\eclipse-workspace\Automation_excercise\Screenshots\chrome_Test14_2024-11-24_13-16-19.png
+Nov 24, 2024 1:16:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:16:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Text is present - Logged in as Harini
+Yes it landed in correct page.. - Automation Exercise - Checkout
+Text is present - YOUR DELIVERY ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Text is present - YOUR BILLING ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Text is present - Congratulations! Your order has been confirmed!
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 15 Completed.........................
+Nov 24, 2024 1:16:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:16:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Text is present - Login to your account
+Text is present - Logged in as Harini
+Text is present - Logged in as Harini
+Yes it landed in correct page.. - Automation Exercise - Checkout
+Text is present - YOUR DELIVERY ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Text is present - YOUR BILLING ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Text is present - Congratulations! Your order has been confirmed!
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 16 Completed.........................
+Nov 24, 2024 1:17:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:17:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Yes it landed in correct page.. - Automation Exercise - Checkout
+Text is present - Cart is empty! Click here to buy products.
+.........................Testcase 17 Completed.........................
+Nov 24, 2024 1:17:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:17:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Text is present - CATEGORY
+Yes it landed in correct page.. - Automation Exercise - Dress Products
+Yes it landed in correct page.. - Automation Exercise - Jeans Products
+.........................Testcase 18 Completed.........................
+Nov 24, 2024 1:17:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:17:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Text is present - BRANDS
+Yes it landed in correct page.. - Automation Exercise - Mast & Harbour Products
+Text is present - BRAND - MAST & HARBOUR PRODUCTS
+Yes it landed in correct page.. - Automation Exercise - Allen Solly Junior Products
+Text is present -  ALLEN SOLLY
+.........................Testcase 19 Completed.........................
+Nov 24, 2024 1:17:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:17:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise - All Products
+Total products available after particualr search : 3
+The product names are :: 
+Cotton Silk Hand Block Print Saree
+Rust Red Linen Saree
+Beautiful Peacock Blue Cotton Linen Saree
+The exact product expected product is not this one but this product contains what i searched for...
+Yes,Expected cloth is in searched products lists - Rust Red Linen Saree
+The exact product expected product is not this one but this product contains what i searched for...
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!User onboarding tools
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Text is present - Login to your account
+Text is present - Logged in as Harini
+Text is present - Women > Saree
+Text is present - Women > Saree
+Text is present - Women > Saree
+Text is present - Cart is empty! Click here to buy products.
+Text is present - ACCOUNT DELETED!
+.........................Testcase 20 Completed.........................
+Nov 24, 2024 1:18:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:18:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise - All Products
+Text is present - Thank you for your review.
+.........................Testcase 21 Completed.........................
+Nov 24, 2024 1:18:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:18:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Text is present - RECOMMENDED ITEMS
+Yes, The recommended product is added to cart  and product name is - Blue Top
+Yes, The recommended product is added to cart  and product name is - Men Tshirt
+Yes, The recommended product is added to cart  and product name is - Sleeveless Dress
+Yes, The recommended product is added to cart  and product name is - Stylish Dress
+Yes, The recommended product is added to cart  and product name is - Winter Top
+Yes, The recommended product is added to cart  and product name is - Summer White Top
+.........................Testcase 22 Completed.........................
+Nov 24, 2024 1:19:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:19:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!Identity management solutions
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Yes it landed in correct page.. - Automation Exercise - Checkout
+Text is present - YOUR DELIVERY ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Text is present - YOUR BILLING ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Delivery name matches Invoice name.
+Delivery company matches Invoice company.
+Delivery address matches Invoice address.
+Delivery city and state match Invoice city and state.
+Delivery country matches Invoice country.
+Delivery number matches Invoice number.
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 23 Completed.........................
+Nov 24, 2024 1:19:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:19:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Yes it landed in correct page.. - Automation Exercise - Checkout
+Yes it landed in correct page.. - Automation Exercise
+Text is present - New User Signup!
+Text is present - ENTER ACCOUNT INFORMATION
+Text is present - ACCOUNT CREATED!
+Text is present - Logged in as Harini
+Text is present - Logged in as Harini
+Text is present - YOUR DELIVERY ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Text is present - YOUR BILLING ADDRESS
+Mrs. Harini Nachimuthu
+XYZ company
+No 1 Street Chennai
+Chennai Tamil Nadu 600 025
+India
+7890543212
+Text is present - Congratulations! Your order has been confirmed!
+Text is present - Congratulations! Your order has been confirmed!
+Text is present - Logged in as Harini
+Text is present - ACCOUNT DELETED!
+.........................Testcase 24 Completed.........................
+Nov 24, 2024 1:20:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:20:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - SUBSCRIPTION
+Text is present - Full-Fledged practice website for Automation Engineers
+.........................Testcase 25 Completed.........................
+Nov 24, 2024 1:20:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Nov 24, 2024 1:20:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Yes it landed in correct page.. - Automation Exercise
+Text is present - SUBSCRIPTION
+Text is present - Full-Fledged practice website for Automation Engineers
+.........................Testcase 26 Completed.........................
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Tests run: 26, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 493.393 s <<< FAILURE! - in TestSuite
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Tests.TestCase14.Test14  Time elapsed: 5.419 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a data-product-id="4" class="btn btn-default add-to-cart">...</a> is not clickable at point (497, 16). Other element would receive the click: <a data-product-id="4" class="btn btn-default add-to-cart">...</a>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8da5b73a561d8024fd5779d44d082d2, clickElement {id=f.A46E16002BA35310B03AFDB46845C2EA.d.B23D99671334B6847A3C4A1E6C6D170E.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57244/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d8da5b73a561d8024fd5779d44d082d2)] -> xpath: (//a[contains(@data-product-id,'4')])[1]]
+Session ID: d8da5b73a561d8024fd5779d44d082d2
+	at Tests.TestCase14.Test14(TestCase14.java:17)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failures: 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]   TestCase14.Test14:17->utils.webelementclickbtn:81 » ElementClickIntercepted el...
+[INFO] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Tests run: 26, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:27 min
+[INFO] Finished at: 2024-11-24T13:20:40+05:30
+[INFO] ------------------------------------------------------------------------
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project Automation_excercise: There are test failures.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Please refer to C:\Users\harin\.jenkins\workspace\Automation_Exercise_Project\target\surefire-reports for the individual test results.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE
